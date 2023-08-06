@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Oswald:wght@300&display=swap');
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #845EC2;
+    font-family: 'oswald', sans-serif;
+}
+.form{
+    width: 80%;
+    max-width: 32rem;
+    border-radius: 10px;
+    box-shadow: -10px 0 4px 0 hsl(258, 72%, 25%, .6);
+    background-color: #E7BAFF;
+}
+.form-fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+.titulo-form{
+    padding: 1rem;
+    font-size: 2em;
+}
+.label-form{
+    padding: .9em;
+    font-size: 1.2em;
+}
+.input-form{
+    padding: 0.5em 0 ;
+    border: none;
+    outline: none;
+    border-radius: 1px;
+    border-bottom: .9px solid #2E126D;
+}
+.input-form:focus{
+    padding-left: .7em;
+}
+.actions{
+    display: flex;
+    align-items: center;
+    padding-top: 3rem;
+}
+.form-btn{
+    background-color: #2E126D;
+    color: #ffffff;
+    font-size: 0.9em;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+}
+.FL{
+    text-decoration-color: #2E126D;
+    font-size: 0.80em;
+    flex-grow: 1;
+    text-align: right;
+    text-transform: uppercase;
+    justify-content: space-around;
+}
+.JC{
+    font-size: 0.80em;
+    flex-grow: 10;
+    text-align: right;
+    text-transform: uppercase;
+    justify-content: space-around;
+}
